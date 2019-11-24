@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html lang="en_US">
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+            <meta name="robots" content="index, follow">
+        <title>Google reCAPTCHA 3 - Demo Test </title>
+    
+    
+    <link rel="stylesheet" href="css/style.css"/>
+
+
+    <link rel="shortcut icon" href="img/favicon/favicon-32x32-rapidsharea6e2.png?1570193140"/>
+    
+</head>
+<body>
+<div id="site-wrapper" class="container">
+
+            <div id="header" class="row">
+    <div class="col-xs-0 col-md-3"></div>
+    <div class="col-xs-12 col-md-6">
+        <a href="index.html">
+            <img id="header-logo" class="img-responsive center-block"
+                 src="img/header.gif">
+        </a>
+    </div>
+    <div class="col-xs-0 col-md-3"></div>
+</div>    
+    <div class="row">
+    <div class="col-xs-0 col-md-3"></div>
+    <div class="col-xs-12 col-md-6">
+                <p class="text-center"><strong><font face="Roboto">What is this?</strong>
+            <br/><br />Here you can <strong>test Google's reCAPTCHA v3.</strong></a><br/>
+            Please see the <a href="https://www.google.com/recaptcha" target="_blank">official website</a> if you want to add it to your website.
+        </p>                                                                    </div>
+    <div class="col-xs-0 col-md-3"></div>
+</div>
+        <div id="upload-top" class="row top-wrapper">
+        <div class="col-xs-0 col-md-3"></div>
+        <div class="col-xs-12 col-md-6 text-center">
+		&nbsp;
+                            <h1 data-uploading-text="Uploading">Test reCAPTCHA v3 below</h1>
+									&nbsp;
+
+                    <center><div class="g-recaptcha" data-sitekey="6LckVMQUAAAAAFvYTgbYHmi6ovyZUj6FiIpifhkw"></div></center>
+
+					</div>
+
+    <div id="upload-wrapper" class="row">
+        <div class="col-xs-0 col-md-4"></div>
+        <div id="dropzone-area" class="col-xs-12 col-md-4 text-center">
+            <noscript>
+                <small>Javascript is disabled. For a better experience, enable Javascript.</small>
+                            </noscript>
+        </div>
+        <div class="col-xs-0 col-md-4"></div>
+    </div>
+
+    <div class="row">
+    <div class="col-xs-0 col-md-3"></div>
+    <div id="footer" class="col-xs-12 col-md-6 text-center">
+
+                <hr/>
+        <div class="row bottom-section">
+            <div class="col-xs-12">
+            </div>
+        </div>
+                    <div class="row bottom-section">
+                <div class="col-xs-12 sister-sites">
+                    <p>Author:
+                                                    <a href="https://github.com/notandreifr"
+                                                             target="_blank">notandreifr</a>.
+															 
+															 Next project<a href="https://github.com/notandreifr"> --></a>.
+                                            </p>
+											
+                </div>
+            </div>
+                    </div>
+
+    <div class="col-xs-0 col-md-3"></div>
+</div></div>
+
+
+<!--This is the reCAPTCHA code for this test site. That's how it should look in your code as well.-->
+<script src="https://www.google.com/recaptcha/api.js?render=_reCAPTCHA_site_key"></script>
+<script>
+grecaptcha.ready(function() {
+    grecaptcha.execute('_reCAPTCHA_site_key_', {action: 'homepage'}).then(function(token) {
+       ...
+    });
+});
+</script>
+<!--^ This is the reCAPTCHA code for this test site. That's how it should look in your code as well.-->
+
+
+</body>
+
+</html>
